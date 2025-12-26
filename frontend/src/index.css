@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.nav-link {
+  margin-left: 30px;
+}
+
+.nav-link:hover {
+  color: #897de8;
+}
+
+.click-btn:hover {
+  opacity: 0.9;
+}
+
+/* .navbar {
+  position: fixed;
+  background-color: white;
+} */
+
+.footer-para p {
+  font-size: 11px;
+  color: rgb(136, 134, 134);
+}
+
+.footer-links {
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.link:hover {
+  color: #897de8;
+}
+
+.link-col a {
+  text-decoration: none;
+  color: grey;
+}
+
+.link-col a:hover {
+  color: #897de8;
+}
+
+.check:hover{
+  color: black;
+}
+
+/* //////////////////////////////////////////////// */ */
+/* Initial state */
+.fade-up,
+.fade-left,
+.fade-right {
+  opacity: 0;
+  transition: all 0.8s ease-out;
+}
+
+.fade-up {
+  transform: translateY(40px);
+}
+
+.fade-left {
+  transform: translateX(-40px);
+}
+
+.fade-right {
+  transform: translateX(40px);
+}
+
+/* Final state when visible */
+.show {
+  opacity: 1;
+  transform: translate(0);
+}
+
+
