@@ -2,11 +2,11 @@
 A full-stack trading platform designed to simulate real-time stock trading with
 live price updates, portfolio tracking, and order execution.
 
-## Current Status
+# Current Status
 - Frontend completed  
 - Backend under active development  
 
-## Tech Stack
+# Tech Stack
 Frontend:
 - React.js
 - Tailwind CSS
@@ -19,7 +19,7 @@ Backend (in progress):
 - WebSockets (Socket.IO)
 - JWT Authentication
 
-## Planned Features
+# Planned Features
 - User authentication & authorization
 - Real-time market price streaming
 - Order placement & execution
@@ -27,12 +27,12 @@ Backend (in progress):
 - Trade history
 - Admin controls
 
-## Architecture
+# Architecture
 - Client → REST APIs + WebSocket server
 - MongoDB for data persistence
 - JWT-based auth
 - Event-driven real-time updates
 
-## Status
+# Status
 This project is actively being developed. Backend APIs and system design
 are currently under implementation.
