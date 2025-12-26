@@ -1,4 +1,4 @@
-# MetaStocks | End to end low latency Trading Engine
+# MetaStocks | End to end low-latency trading engine
 A full-stack trading platform designed to simulate real-time stock trading with
 live price updates, portfolio tracking, and order execution.
 
